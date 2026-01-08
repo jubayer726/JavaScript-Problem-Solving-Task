@@ -2,7 +2,8 @@
 function reverseString(str) {
   return str.split('').reverse().join('')
 }
-console.log(reverseString("Hello"));
+console.log(reverseString("Hello")); //Output: "olleh"
+
 
 
 
@@ -21,7 +22,7 @@ function countVowels(str) {
   return count;
 }
 
-console.log(countVowels("programming"));
+console.log(countVowels("programming")); // Output: 3
 
 
 // Problem 3: Check for Palindrome
@@ -30,7 +31,7 @@ function isPalindrome(str) {
   const rev = cleaned.split('').reverse().join('');
   return cleaned === rev;
 }
-console.log(isPalindrome("madam"));
+console.log(isPalindrome("madam")); // Output: true
 
 
 
@@ -44,7 +45,7 @@ function maxInArray(arr) {
   }
   return max;
 }
-console.log(maxInArray([3, 7, 2, 9, 4]));
+console.log(maxInArray([3, 7, 2, 9, 4])); // Output: 9
 
 
 
@@ -53,7 +54,7 @@ function unique(arr) {
   return Array.from(new Set(arr));
 }
 
-console.log(unique([1,2,2,3,4,4]));
+console.log(unique([1,2,2,3,4,4])); // Output: [1,2,3,4]
 
 
 
@@ -66,7 +67,7 @@ function sumArray(arr) {
   }
   return sum;
 }
-console.log(sumArray([1, 2, 3, 4, 5]));
+console.log(sumArray([1, 2, 3, 4, 5])); // Output: 15
 
 
 
@@ -81,7 +82,7 @@ function findEvenNumbers(arr) {
   }
   return evens;
 }
-console.log(findEvenNumbers([1, 2, 3, 4, 5, 6])); // Output: [2, 4, 6]
+console.log(findEvenNumbers([1, 2, 3, 4, 5, 6, 7])); // Output: [2, 4, 6]
 
 
 
@@ -101,7 +102,6 @@ console.log(capitalizeWords("hello world")); // Output: "Hello World"
 
 
 
-
 // Problem 9: Find the Factorial of a Number
 function factorial(n) {
   let result = 1;
@@ -114,7 +114,7 @@ console.log(factorial(5)); // Output: 120
 
 
 
-// Problem 10: PingPong Challenge
+// Problem 10: PingPong Challengee
 function pingPong() {
   let result = [];
 
@@ -129,7 +129,6 @@ function pingPong() {
       result.push(i);
     }
   }
-
   console.log(result.join(", "));
 }
 pingPong();
